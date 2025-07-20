@@ -15,3 +15,15 @@ list.reverse()
 text=",".join(list)
 text=text.replace(",","")
 print(text)
+
+
+
+# using while loop write a program to reverse each word of the sentence
+sentence = "Hello World"
+words = sentence.split(" ")
+for word in words:
+    i=len(word)-1
+    while i>=0:
+        print(word[i], end="")
+        i -= 1
+    print(end=" ")
