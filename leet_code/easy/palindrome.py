@@ -17,8 +17,6 @@ class Solution:
             else:
                 return False
 
-       
-
 s = Solution()
 result = s.isPalindrome(121)
 print(result)
