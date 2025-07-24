@@ -23,4 +23,3 @@ def sum(nums, target):
 result = sum([3,4,3],6)
 print(result)
           
-
