@@ -27,3 +27,8 @@ for word in words:
         print(word[i], end="")
         i -= 1
     print(end=" ")
+print()
+
+
+for x in sentence[::-1]:
+    print(x, end="")
